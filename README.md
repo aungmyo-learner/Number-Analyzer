@@ -101,7 +101,7 @@ Screenshots (Optional)
 
 ---
 
-## What I Learened
+## What I Learned
 
 * Designing layered architecture
 * Writing clean and maintainable Java code
