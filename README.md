@@ -48,7 +48,7 @@ Domain (Number)
 
 ```bash
 # Clone repository
-gt clone https: // github.com/aungmyo-learner/Number-Analyzer.git
+git clone https: // github.com/aungmyo-learner/Number-Analyzer.git
 
 # Open in IDE (Eclipse / InteliJ)
 
