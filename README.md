@@ -22,7 +22,7 @@ It analyzes a give number and determines its classifications such as even/odd/, 
 
 ## Architecture & Design
 
-This project follows a **Layered archiecture** to separation concers:
+This project follows a **Layered Archiecture** to separation concers:
 
 Presentation (UI)
 	↓
