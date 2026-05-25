@@ -7,5 +7,6 @@ public class NumberAnalyzer {
 		Presentation display = new Presentation(sc);
 		Controller controller = new Controller(service, display);
 		controller.control();
+		sc.close();
 	}
 }

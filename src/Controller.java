@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Controller {
 	private final Service service;
@@ -9,7 +8,6 @@ public class Controller {
 		this.display = display;
 	}
 	public void control() {
-		Scanner sc = new Scanner(System.in);
 		int number;
 		int cmd;
 		while(true) {
@@ -22,6 +20,5 @@ public class Controller {
                 break;
             }
 		}
-		sc.close();
 	}
 }

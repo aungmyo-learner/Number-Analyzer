@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Presentation {
 	private final Scanner sc;
 	public Presentation(Scanner sc) {
-		super();
 		this.sc = sc;
 	}
 	public int input() {

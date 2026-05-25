@@ -16,8 +16,8 @@ public class NumberAnalyze {
 	private NumberKinds isPrime() {
 		int i =2;
 		if(number <=1) return NumberKinds.Neither;
-		while(i * i < number && number >1) {
-			if(number % 2 ==0) return NumberKinds.Composite;
+		while(i * i <= number && number >1) {
+			if(number % i ==0) return NumberKinds.Composite;
 			i++;
 		}
 		return NumberKinds.Prime;
