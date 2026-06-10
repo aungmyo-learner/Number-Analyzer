@@ -45,6 +45,7 @@ public class Presentation {
             System.out.println("1. Continue or 0. Stop");
             int cmd = sc.nextInt();
             if (cmd == 1 || cmd == 0) {
+            	sc.nextLine();
                 return cmd;
             }
         }
